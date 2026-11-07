@@ -10,12 +10,12 @@
 | Tower | Description |
 |---|---|
 | **Laser** | Rapid-fire precision beam with visible laser trail |
-| **Kanone** | High-damage cannon with bullet trail effects |
-| **Sauger (Vakuum)** | Pulls enemies inward; pull-count scales with upgrades |
-| **Mörser** | Area-of-effect mortar; lobs explosive shells |
-| **Flammenwerfer** | Close-range fire burst with flame projectile |
-| **Blitzturm** | Chain lightning between enemies |
-| **Schwerkraftturm** | Pushes small/medium enemies but cannot stop bosses |
+| **Canon** | High-damage cannon with bullet trail effects |
+| **Vakuum** | Pulls enemies inward; pull-count scales with upgrades |
+| **Mortar** | Area-of-effect mortar; lobs explosive shells |
+| **Flamethrower** | Close-range fire burst with flame projectile |
+| **Lightning Tower** | Chain lightning between enemies |
+| **Gravity Tower** | Pushes small/medium enemies but cannot stop bosses |
 > Towers are unlocked with Round Points. Long-press a locked tower in-round to preview its name without accidentally unlocking it.
 ###  Enemies & Bosses
 - **7 enemy types:** Saucer Drone, Scout UFO, Plasma UFO, Tank UFO, Healer UFO, Splitter UFO, Stealth UFO
@@ -28,9 +28,9 @@
 - **Boss spawn rules by difficulty:**
   | Difficulty | Waves | Boss Schedule |
   |---|---|---|
-  | Leicht | 25 | Every 10 waves; 1 boss on last wave |
-  | Mittel | 50 | Every 10 waves; 2 bosses on last wave |
-  | Schwer | 100 | Every 5 waves; 2 bosses on last wave |
+  | Easy | 25 | Every 10 waves; 1 boss on last wave |
+  | Medium | 50 | Every 10 waves; 2 bosses on last wave |
+  | Hard | 100 | Every 5 waves; 2 bosses on last wave |
   | Endless | ∞ | Every 10 waves forever |
 ### Maps & Levels
 - **20 unique maps** across difficulties (Leicht, Mittel, Schwer, Endless)
