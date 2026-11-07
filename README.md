@@ -51,4 +51,4 @@
 - **Alien Skins**
 - **Color Themes** (UI accent colors)
 
-> © JM University Haar 2026
+> © 2026 JM University Haar 
