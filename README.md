@@ -52,7 +52,7 @@
 - **Color Themes** (UI accent colors)
 
 ## Download & Setup
-The Game [download](https://github.com/INEVERSTOPMEWING/hyper-defense/releases) is currently only available for Android Phones. If you are on an Apple Device you can still Play the game in the [Browser](https://ineverstopmewing.github.io) or add an [Web App](https://support.apple.com/guide/iphone/iphea86e5236/ios).
+The Game [download](https://github.com/INEVERSTOPMEWING/hyper-defense/releases) is currently only available for Android Phones. If you are on an Apple Device you can still Play the game in the [Browser](https://ineverstopmewing.github.io/hyper-defense/) or add an [Web App](https://support.apple.com/guide/iphone/iphea86e5236/ios).
 
 **Setup for Android**
 
