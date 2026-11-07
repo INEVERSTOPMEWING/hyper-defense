@@ -50,3 +50,5 @@
 - **Bullet Forms** (custom projectile visuals)
 - **Alien Skins**
 - **Color Themes** (UI accent colors)
+
+> © JM University Haar
