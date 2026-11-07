@@ -63,6 +63,7 @@
     }
 
     canvas#gameCanvas {
+touch-action: none;
       touch-action: none;
       width: 100%;
       height: 100%;
@@ -387,7 +388,7 @@
       cursor: pointer;
       position: relative;
       transition: border-color 0.15s, transform 0.1s;
-      touch-action: manipulation;
+      touch-action: pan-x; /* horizontal = scroll tray, vertical = drag tower */
       padding: 4px;
     }
 
@@ -8677,13 +8678,27 @@
           }, { passive: false });
 
           card.addEventListener('touchmove', (e) => {
-            if (Math.hypot(e.touches[0].clientX - touchStartX, e.touches[0].clientY - touchStartY) > 10) {
+            const tch = e.touches[0];
+            if (Math.hypot(tch.clientX - touchStartX, tch.clientY - touchStartY) > 10) {
               hasMoved = true;
               hideTooltip();
             }
-          }, { passive: true });
+            // Touch-Events bleiben immer beim Element, auf dem der Touch begann (hier: Karte).
+            // Daher muss die Drag-Position HIER aktualisiert werden, nicht nur auf dem Canvas.
+            if (this.isDraggingTower) {
+              if (e.cancelable) e.preventDefault();
+              const rect = this.canvas.getBoundingClientRect();
+              this.updateDrag({
+                x: ((tch.clientX - rect.left) / rect.width) * 720,
+                // Vorschau 90px (Spielkoordinaten) ueber dem Finger, damit sie nicht verdeckt wird
+                y: ((tch.clientY - rect.top) / rect.height) * 1440 - 90
+              });
+            }
+          }, { passive: false });
 
           card.addEventListener('touchend', (e) => {
+            // verhindert die vom Browser nachgeschickten Maus-Events (sonst startet mousedown den Drag erneut)
+            if (e.cancelable) e.preventDefault();
             hideTooltip();
             // Wenn der Turm noch gesperrt ist: NUR bei kurzem Antippen freischalten!
             if (!this.unlockedInMatch.includes(key)) {
@@ -8698,6 +8713,11 @@
           card.addEventListener('touchcancel', () => {
             hideTooltip();
             isLongPressed = false;
+            // Browser hat die Geste uebernommen (z.B. Leiste gescrollt) -> Drag abbrechen, nichts bauen
+            if (this.isDraggingTower) {
+              this.targetPlatform = null;
+              this.endDrag();
+            }
           });
 
           // --- MOUSE EVENTS (Desktop / Test) ---
