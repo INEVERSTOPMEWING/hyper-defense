@@ -9,13 +9,13 @@
 ### Towers
 | Tower | Description |
 |---|---|
-| **Laser** | Rapid-fire precision beam with visible laser trail |
-| **Canon** | High-damage cannon with bullet trail effects |
-| **Vakuum** | Pulls enemies inward; pull-count scales with upgrades |
-| **Mortar** | Area-of-effect mortar; lobs explosive shells |
-| **Flamethrower** | Close-range fire burst with flame projectile |
-| **Lightning Tower** | Chain lightning between enemies |
-| **Gravity Tower** | Pushes small/medium enemies but cannot stop bosses |
+| **Gravitor** | Rapid-fire precision beam with visible laser trail |
+| **Maschinenpistole** | High-damage cannon with bullet trail effects |
+| **Laserstrahler** | Pulls enemies inward; pull-count scales with upgrades |
+| **Kometenwerfer** | Area-of-effect mortar; lobs explosive shells |
+| **Feuerwerfer** | Close-range fire burst with flame projectile |
+| **Kettenblitz** | Chain lightning between enemies |
+| **Shockwelle** | Pushes small/medium enemies but cannot stop bosses |
 > Towers are unlocked with Round Points. Long-press a locked tower in-round to preview its name without accidentally unlocking it.
 ###  Enemies & Bosses
 - **7 enemy types:** Saucer Drone, Scout UFO, Plasma UFO, Tank UFO, Healer UFO, Splitter UFO, Stealth UFO
