@@ -1,6 +1,6 @@
 #  Hyper Defense
 > **A mobile-first browser tower defense game set in deep space.**  
-> Pure HTML/CSS/JavaScript — no build step, no dependencies, one file.
+> Pure HTML/CSS/JavaScript no build step, no dependencies, one file.
 ---
 ##  About the Game
 **Hyper Defense** is a fast-paced tower defense game where you defend your base against waves of alien invaders. Place towers strategically, upgrade them, open loot crates for rare cosmetics, and climb the leaderboard — all from your phone or desktop browser.
