@@ -2039,7 +2039,7 @@
                         <polyline points="12 19 5 12 12 5"></polyline>
                     </svg>
                 </div>
-                <div class="screen-title">GALAXIE ALPHA</div>
+                <div class="screen-title">LEVELS</div>
                 <div style="width: 34px;"></div>
             </div>
 
@@ -2100,7 +2100,7 @@
                         <polyline points="12 19 5 12 12 5"></polyline>
                     </svg>
                 </div>
-                <div class="screen-title">GALAKTISCHE RANGLISTE</div>
+                <div class="screen-title">SPACE RANGLISTE</div>
                 <div class="curr-item curr-p" style="font-size: 13px;"><span>XP</span> <span
                         id="leaderboard-points-display">0</span></div>
             </div>
@@ -2149,7 +2149,7 @@
                 </div>
             </div>
             <div class="quests-banner">
-                <div class="quests-banner-title">GALAKTISCHE AUFTRÄGE</div>
+                <div class="quests-banner-title">SPACE AUFTRÄGE</div>
                 <div class="quests-banner-sub">Erfülle Missionen für permanente XP und Extra-Startcredits!</div>
             </div>
             <div id="quests-list" class="quests-list-container">
@@ -2888,7 +2888,7 @@
                     id: `q_gold_${i + 1}`,
                     tag: `G-${String(i + 1).padStart(3, '0')}`,
                     cat: 'economy',
-                    name: `Galaktischer Magnat ${i + 1}`,
+                    name: `SPACE Magnat ${i + 1}`,
                     desc: `Verdiene insgesamt mindestens ${t.toLocaleString('de-DE')} Credits.`,
                     target: t,
                     rewardPoints: 8 + i * 3,
@@ -2938,7 +2938,7 @@
                     tag: `X-${String(idx).padStart(3, '0')}`,
                     cat: 'special',
                     name: `Elite-Pionier Rang ${idx}`,
-                    desc: `Vernichte insgesamt ${targetKills.toLocaleString('de-DE')} UFOs in den Galaxie-Kriegen.`,
+                    desc: `Vernichte insgesamt ${targetKills.toLocaleString('de-DE')} UFOs in den SPACE-Kriegen.`,
                     target: targetKills,
                     rewardPoints: 20 + Math.floor(idx / 10),
                     rewardCoins: 1500 + idx * 50,
@@ -10533,7 +10533,7 @@
                         rankProgEl.style.width = `${pct}%`;
                     }
                 } else {
-                    if (rankSubEl) rankSubEl.innerHTML = '<b>CHAMPION DER GALAXIE! PLATZ #1 DER RANGLISTE!</b>';
+                    if (rankSubEl) rankSubEl.innerHTML = '<b>CHAMPION DER SPACE! PLATZ #1 DER RANGLISTE!</b>';
                     if (rankProgEl) rankProgEl.style.width = '100%';
                 }
 
