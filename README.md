@@ -41,8 +41,8 @@
 | **Cyber-Kiste** | 18,000 G | Legendary cosmetic (Shooter-Form / Bullet-Form / Alien-Form / Theme) |
 | **Titan-Kiste** | 44,000 G | 1,000,000 G + 1 Legendary Skin |
 | **Kosmische Hyper-Kiste** | 100,000 G | 10,000,000 G + 10,000 XP + 3 Legendary Skins |
-| **Tägliche Kiste** | Free (1×/day) | Smaller rewards |
-- **CS:GO-style spinning reel** with rarity glow effects
+| **Daily Chest** | Free (1×/day) | Smaller rewards |
+- **Spiining Style** with rarity glow effects
 - **Super-Mega-Jackpot** (Cosmic only): 1-in-100,000 chance massive glow when it lands
 - Long-press any crate card to preview odds and jackpot visuals before buying
 ### Cosmetics
@@ -51,4 +51,22 @@
 - **Alien Skins**
 - **Color Themes** (UI accent colors)
 
-> © 2026 JM University Haar 
+## Download & Setup
+The Game [download](https://github.com/INEVERSTOPMEWING/hyper-defense/releases) is currently only available for Android Phones. If you are on an Apple Device you can still Play the game in the [Browser](https://ineverstopmewing.github.io) or add an [Web App](https://support.apple.com/guide/iphone/iphea86e5236/ios).
+
+**Setup for Android**
+
+- Download the latest `.apk` file from the [Releases](https://github.com/INEVERSTOPMEWING/hyper-defense/releases) page.
+- Open the downloaded file on your phone.
+- If Android blocks the install, tap **Settings** and enable **Allow from this source**, then go back.
+- Tap **Install**.
+- If Google Play Protect shows a warning, tap **Details → Install anyway**.
+
+
+**Setup for IOS**
+- Open [Hyper Defense](https://ineverstopmewing.github.io/hyper-defense/) in **Safari**.
+- Hold the **Address Bar** until the submenu is shown.
+- Press the **Share** Option in the menu.
+- In the share menu press **View More → Add to Home Screen**.
+
+> `© 2026 JM University Haar`  
