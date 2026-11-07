@@ -3,7 +3,7 @@
 > Pure HTML/CSS/JavaScript no build step, no dependencies, one file.
 ---
 ##  About the Game
-**Hyper Defense** is a fast-paced tower defense game where you defend your base against waves of alien invaders. Place towers strategically, upgrade them, open loot crates for rare cosmetics, and climb the leaderboard — all from your phone or desktop browser.
+**Hyper Defense** is a fast-paced tower defense game where you defend your base against waves of alien invaders. Place towers strategically, upgrade them, open loot crates for rare cosmetics, and climb the leaderboard, all from your phone or desktop browser.
 ---
 ## Features
 ### Towers
@@ -15,15 +15,15 @@
 | **Mörser** | Area-of-effect mortar; lobs explosive shells |
 | **Flammenwerfer** | Close-range fire burst with flame projectile |
 | **Blitzturm** | Chain lightning between enemies |
-| **Schwerkraftturm** | Pushes small/medium enemies — cannot stop bosses |
+| **Schwerkraftturm** | Pushes small/medium enemies but cannot stop bosses |
 > Towers are unlocked with Round Points. Long-press a locked tower in-round to preview its name without accidentally unlocking it.
 ###  Enemies & Bosses
 - **7 enemy types:** Saucer Drone, Scout UFO, Plasma UFO, Tank UFO, Healer UFO, Splitter UFO, Stealth UFO
 - **20+ unique boss types**, each with an individual special ability:
-  -  Frost — freezes towers temporarily
-  -  Black Hole — pulls all enemies to safety
-  -  Bio-Electric — disables tower auras
-  -  Titan Shield — reflects projectiles for a duration
+  -  Frost: freezes towers temporarily
+  -  Black Hole: pulls all enemies to safety
+  -  Bio-Electric: disables tower auras
+  -  Titan Shield: reflects projectiles for a duration
   - …and many more
 - **Boss spawn rules by difficulty:**
   | Difficulty | Waves | Boss Schedule |
@@ -43,7 +43,7 @@
 | **Kosmische Hyper-Kiste** | 100,000 G | 10,000,000 G + 10,000 XP + 3 Legendary Skins |
 | **Tägliche Kiste** | Free (1×/day) | Smaller rewards |
 - **CS:GO-style spinning reel** with rarity glow effects
-- **Super-Mega-Jackpot** (Cosmic only): 1-in-100,000 chance — massive glow when it lands
+- **Super-Mega-Jackpot** (Cosmic only): 1-in-100,000 chance massive glow when it lands
 - Long-press any crate card to preview odds and jackpot visuals before buying
 ### Cosmetics
 - **30+ Shooter-Forms** (sprite-sheet skins for your tower base)
